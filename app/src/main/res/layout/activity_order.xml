@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Address details" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+
+            android:layout_height="wrap_content"
+            android:text="Enter Name" />
+
+        <EditText
+            android:id="@+id/name_box"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/add_back"
+            android:layout_height="40dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+             />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+
+            android:layout_height="wrap_content"
+            android:text="Mobile Number" />
+
+        <EditText
+            android:id="@+id/num_box"
+            android:layout_marginRight="40dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@drawable/add_back"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <EditText
+            android:id="@+id/address_box"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="90dp"
+            android:ems="10"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:background="@drawable/add_back"
+            android:inputType="textPersonName"
+
+            />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:text="Pincode" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/add_back"
+            android:textSize="16sp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:inputType="number"
+             />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:background="@drawable/add_back"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingRight="8dp"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button655"
+
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245022780104",
+    "project_id": "bookshope-a8a8c",
+    "storage_bucket": "bookshope-a8a8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245022780104:android:d9219d9cf8c8e8be0e93fd",
+        "android_client_info": {
+          "package_name": "com.gallery.book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245022780104-771v98cejiufluah9785c9915r2139s5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf1D8GNMxGp6_PWhLJUtXKKc6l6zfTrtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245022780104-771v98cejiufluah9785c9915r2139s5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
